@@ -18,14 +18,14 @@ body {
 
 header h1 {
     margin-left: 2%;
+}
+header h1, a {
     color: #ffff;
+    text-decoration: none;
 }
 
 header h1:hover {
-    color:#2F627C;
-    background-color: #ffff;
     cursor: pointer;
-    transition: all .2s ease-in-out
 }
 
 .nav-links {
